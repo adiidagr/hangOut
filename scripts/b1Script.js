@@ -5,7 +5,7 @@ $(document).ready(() => {
   $("#b1").hover(
     // when cursor enters the button
     function () {
-      flag == 1 ? (pos = 11) : (pos = 0);
+      flag == 1 ? (pos = 25) : (pos = 0);
       $(this).css({ "left": `${pos}vw` });
     },
 
