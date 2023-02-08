@@ -5,8 +5,8 @@ $(document).ready(() => {
   $("#b1").hover(
     // when cursor enters the button
     function () {
-      flag == 1 ? (pos = 120) : (pos = 0);
-      $(this).css({ left: pos });
+      flag == 1 ? (pos = 12) : (pos = 0);
+      $(this).css({ "left": `${pos}vw` });
     },
 
     //when cursor leaves the button 
