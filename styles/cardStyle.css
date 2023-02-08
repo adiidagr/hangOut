@@ -1,5 +1,5 @@
 .card {
-    width: 30em;
+    width: 90vw;
     height: 60vh;
     background: rgb(42, 0, 28);
     position: relative;
@@ -10,13 +10,13 @@
     place-items: center;
     overflow: hidden;
     border-radius: 20px;
-    margin-bottom: 3vh;
+    margin-bottom: 2vh;
   }
   
   .card h2 {
     z-index: 1;
     color: white;
-    font-size: 1.5em;
+    font-size: 8vh;
   }
   
   .card::before {
@@ -54,3 +54,10 @@
   
   
   /* colors -> rgb(0, 183, 255)   rgb(255, 48, 255)   */
+  @media screen and (max-width: 400px) {
+    .card h2 {
+      font-size: 4vh;
+      position: relative;
+      left : 20px /* The width is 100%, when the viewport is 400px or smaller */
+    }
+  }
