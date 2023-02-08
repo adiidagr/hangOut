@@ -4,7 +4,7 @@
     align-items: center;
     width: 10em;
     height: 4em;
-    padding: 2em;
+    padding: 1em;
     color: white;
     background-color: rgb(62, 62, 236);
     border: none;
@@ -13,12 +13,15 @@
 } 
 
 .text1{
-    font-size:1.5em;
+    font-size:1.2em;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
     .btn1 {
-      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+      width: 5em; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+    .text1{
+        font-size: 1em;
     }
   }
 
