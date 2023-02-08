@@ -1,6 +1,10 @@
 .btn1{
-    width : 7vw;
-    height : 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 4em;
+    padding: 2em;
     color: white;
     background-color: rgb(62, 62, 236);
     border: none;
@@ -9,6 +13,12 @@
 } 
 
 .text1{
-    font-size:1vw;
+    font-size:1.5em;
 }
+
+@media screen and (max-width: 800px) {
+    .btn1 {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
 
